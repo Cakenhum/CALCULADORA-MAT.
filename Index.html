@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estatística</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="cafe.jpg" alt="Imagem" class="image">
+        <h1>Calculadora Estatística</h1>
+        <textarea id="numbers" placeholder="Insira os números separados por vírgula"></textarea>
+        <select id="operation">
+            <option value="mean">Média</option>
+            <option value="mode">Moda</option>
+            <option value="median">Mediana</option>
+        </select>
+        <button onclick="calculate()">Calcular</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
